@@ -58,6 +58,8 @@ var segregate = async data => {
 };
 
 let main = async () => {
+  console.log("Here");
   let data = await loadData();
   console.log("Done");
 };
+main();
